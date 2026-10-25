@@ -1,0 +1,17 @@
+spring:
+  main:
+    web-application-type: none
+    banner-mode: off
+
+export:
+  # input: china-latest.osm.pbf
+  # output: china.geojson
+  admin-levels: ""
+  boundary-types: ""
+  bbox: ""
+  simplify: 0
+  include-tags: true
+  hierarchy: true
+  srid: 4326
+  precision: 7
+  verbose: true
